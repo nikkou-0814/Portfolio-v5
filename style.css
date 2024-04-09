@@ -23,6 +23,7 @@ header{
     border-radius: 15px;
     margin: 20px;
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     transition: all 0.3s;
     box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
 }
