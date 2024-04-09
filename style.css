@@ -246,6 +246,10 @@ header{
     width: 700px;
 }
 
+.about p, h2, h1{
+    padding: 10px;
+}
+
 .abouts{
     width: 100%;
     display: flex;
@@ -273,4 +277,61 @@ header{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.mades{
+    text-align: center;
+    width: 100%;
+}
+
+.made{
+    background-color: rgb(200, 200, 255, 0.1);
+    border-radius: 15px;
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.made h2{
+    padding-top: 10px;
+    margin: 0;
+}
+
+.made p{
+    padding-bottom: 10px;
+    margin: 0;
+    padding: 0 10px 10px 10px;
+}
+
+.made img{
+    display: flex;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 15px;
+    aspect-ratio: 16/9;
+    max-width: 100%;
+}
+
+.maincontent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.maincontent a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.maincontent a:hover{
+    transform: scale(1.05);
+}
+
+.maincontent a{
+    margin: 10px;
 }
