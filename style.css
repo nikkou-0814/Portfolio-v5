@@ -15,6 +15,13 @@ header{
     z-index: 9999;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .header{
     background-color: rgba(92, 92, 118, 0.5);
     height: 45px;
