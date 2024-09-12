@@ -2,6 +2,10 @@ body {
     background-color: rgb(25, 25, 34);
     font-family: "Lato", "Noto Sans JP", sans-serif;
     color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 header{
@@ -16,6 +20,7 @@ header{
 }
 
 footer{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +42,7 @@ footer{
 
 .header:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 20px rgb(255, 255, 255, 0.1);
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.5);
 }
 
 .meme{
@@ -133,7 +138,7 @@ footer{
 
 .navigation a:hover {
     color: white;
-    background-color: rgb(255, 255, 255, 0.2);
+    background-color: rgb(255, 255, 255, 0.15);
 }
 
 .ch{
@@ -169,7 +174,7 @@ footer{
 
 .readmore:hover{
     color: lightgrey;
-    box-shadow: 0 0 20px rgb(255, 255, 255, 0.4);
+    background-color: rgb(150, 150, 255, 0.1);
 }
 
 .favorite{
